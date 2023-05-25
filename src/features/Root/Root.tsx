@@ -3,7 +3,6 @@ import {FC} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link, Outlet} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../app/hooks";
-import {useDispatch} from "react-redux";
 import {Button} from "react-bootstrap";
 import {fakeFetch} from "./rootSlice";
 
